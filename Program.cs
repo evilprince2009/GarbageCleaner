@@ -23,7 +23,6 @@ namespace GarbageCleaner
                 }
 
                 ExtensionInput:
-
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Enter extension.");
                 string extension = "*." + Console.ReadLine();
@@ -36,15 +35,15 @@ namespace GarbageCleaner
                 }
 
 
-                string[] filesPath = Directory.GetFiles(path, extension, SearchOption.TopDirectoryOnly);
-                int counter = filesPath.Length;
+                string[] fileBuffer = Directory.GetFiles(path, extension, SearchOption.TopDirectoryOnly);
+                int counter = fileBuffer.Length;
 
                 Console.WriteLine("File(s) found with the extension " + extension.Trim('*') + " in directory:-" + counter);
 
-                foreach (var fp in filesPath)
+                foreach (var buffer in fileBuffer)
                 {
-                    FileInfo x = new (fp);
-                    x.Delete();
+                    FileInfo file = new (buffer);
+                    file.Delete();
                     Console.WriteLine("File(s) left - " + --counter);
                 }
 
