@@ -20,4 +20,4 @@ GarbageCleaner is here to help you. Just open this command line , put your direc
 
 ![GarbageCleaner](https://github.com/evilprince2009/GarbageCleaner/blob/main/image/screenshot.png)
 
-### [Ibne Nahian](https://www.facebook.com/evilprince2009)
+### ⚡⚡ [Ibne Nahian](https://www.facebook.com/evilprince2009) ⚡⚡
