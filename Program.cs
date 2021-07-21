@@ -7,6 +7,8 @@ namespace GarbageCleaner
     {
         static void Main()
         {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("Coded by Evilprince2009");
             while (true)
             {
                 DirectoryInput:
