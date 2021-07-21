@@ -3,6 +3,10 @@
 Want to delete all files in a directory with same extensions ? Deleting them one by one is a pain.
 GarbageCleaner is here to help you. Just open this command line , put your directory path , extensions you want to delete and forget it. Thousand of unwanted files will be deleted in a few seconds.
 
+### Requirements
+
+- .NET Core Version 5.0.301
+
 ### How to use
 
 - Download the source code and build it using Visual Studio or VSCode.
