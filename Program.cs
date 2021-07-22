@@ -48,8 +48,8 @@ namespace GarbageCleaner
                 }
 
                 Console.WriteLine("Start over? Type yes or no.");
-                string ans = Console.ReadLine();
-                if (ans == "no") break;
+                string response = Console.ReadLine().ToLower();
+                if (response == "no") break;
             }
         }
     }
